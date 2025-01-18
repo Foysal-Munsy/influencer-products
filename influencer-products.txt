@@ -1,6 +1,6 @@
-nav
-hero-section
-partner-section
-collection
-featured
-footer
+1.nav
+2.hero-section
+3.partner-section
+4.collection
+5.featured
+6.footer
