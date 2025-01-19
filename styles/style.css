@@ -11,19 +11,26 @@
     --primary-color: rgb(58, 58, 58);
     --secondary-color: rgb(224, 44, 109);
     --hover-color: #f0f0f0;
+    --btn-hover: #c92080;
     --primary-font: "Fira Sans", serif;
 }
 
-body {
+.container {
     background-color: rgb(255, 255, 255);
     font-family: var(--primary-font);
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    border: 5px solid black;
+    color: var(--primary-color);
 }
 
 /* Nav Bar Start */
 nav {
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
 }
 
 nav ul {
@@ -34,34 +41,31 @@ nav ul {
     align-items: center;
     margin: 0;
     padding: 0;
-    gap: -10px;
+    gap: 15px;
 }
 
 nav li {
-    height: 50px;
-    margin: 0 5px;
-    /* Adjusts space between list items */
+    margin: 0 10px;
 }
 
 nav a {
     text-decoration: none;
-    height: 100%;
-    color: black;
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
-    /* Further reduces padding for tighter spacing */
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 10px;
+    transition: background-color 0.3s ease;
 }
 
 
 nav a:hover {
     background-color: var(--hover-color);
+    border-radius: 5px;
 }
 
 nav li:first-child {
-    margin-right: auto;
     font-size: 24px;
-    font-weight: 450;
+    font-weight: 600;
+    margin-right: auto;
 }
 
 .sideBar {
@@ -69,7 +73,7 @@ nav li:first-child {
     top: 0;
     right: 0;
     height: 100vh;
-    width: 200px;
+    width: 250px;
     /* box-sizing: border-box; */
     background-color: rgba(255, 255, 255, 0.021);
     backdrop-filter: blur(10px);
@@ -86,6 +90,9 @@ nav li:first-child {
 
 .sideBar a {
     width: 100%;
+    padding: 10px;
+    display: block;
+    color: var(--primary-color);
 }
 
 .crossBar {
@@ -93,3 +100,62 @@ nav li:first-child {
 }
 
 /* Nav Bar End */
+
+/* Banner Section */
+.banner {
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid tomato;
+}
+
+.banner-text {
+    margin-left: 0;
+}
+
+.banner img {
+    height: 380px;
+}
+
+.banner-img {
+    margin-right: 0;
+    background-image: url('../assets/images/Circle\ design.svg');
+    background-size: contain;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1rem;
+    font-weight: 440;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.banner button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 41px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.banner button:hover {
+    background-color: var(--btn-hover);
+}
+
+.banner button .material-symbols-outlined {
+    font-size: 20px;
+    display: inline-flex;
+    vertical-align: middle;
+    line-height: 1;
+}

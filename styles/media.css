@@ -2,7 +2,8 @@
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
+/* Medium Devices (Tablets and Small Laptops): max-width 1024px */
+@media only screen and (max-width: 1024px) {
     .hideOnMobile {
         display: none;
     }
@@ -12,7 +13,8 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
+/* Small Devices (Mobile Phones): max-width 600px */
+@media only screen and (max-width: 600px) {
     .sideBar {
         width: 100%;
     }
