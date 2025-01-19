@@ -109,7 +109,7 @@ nav li:first-child {
     border: 2px solid tomato;
 }
 
-#banner-text {
+.banner-text {
     margin-left: 0;
 }
 
@@ -117,7 +117,7 @@ nav li:first-child {
     height: 380px;
 }
 
-#banner-img {
+.banner-img {
     margin-right: 0;
     background-image: url('../assets/images/Circle\ design.svg');
     background-size: contain;
