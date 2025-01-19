@@ -50,11 +50,13 @@
     .banner-img {
         margin: 50px;
         margin-bottom: 0px;
+        background-size: contain;
     }
 
     .banner-text {
         margin: 50px;
         margin-top: 20px;
     }
+
 
 }

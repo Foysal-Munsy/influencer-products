@@ -18,7 +18,7 @@
 .container {
     background-color: rgb(255, 255, 255);
     font-family: var(--primary-font);
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding: 50px;
     height: auto;
@@ -35,7 +35,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    width: 90%;
+    width: 75%;
     z-index: 1000;
 }
 
