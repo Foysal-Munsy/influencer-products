@@ -102,22 +102,22 @@ nav li:first-child {
 /* Nav Bar End */
 
 /* Banner Section */
-.banner {
+#banner {
     height: auto;
     display: flex;
     align-items: center;
     border: 2px solid tomato;
 }
 
-.banner-text {
+#banner-text {
     margin-left: 0;
 }
 
-.banner img {
+#banner img {
     height: 380px;
 }
 
-.banner-img {
+#banner-img {
     margin-right: 0;
     background-image: url('../assets/images/Circle\ design.svg');
     background-size: contain;
@@ -126,19 +126,20 @@ nav li:first-child {
     height: 400px;
 }
 
-.banner h1 {
+#banner h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-.banner p {
+#banner p {
     font-size: 1rem;
+
     font-weight: 440;
     color: var(--primary-color);
     margin-bottom: 20px;
 }
 
-.banner button {
+#banner button {
     background-color: var(--secondary-color);
     color: white;
     padding: 10px 20px;
@@ -149,11 +150,11 @@ nav li:first-child {
     font-weight: 550;
 }
 
-.banner button:hover {
+#banner button:hover {
     background-color: var(--btn-hover);
 }
 
-.banner button .material-symbols-outlined {
+#banner button .material-symbols-outlined {
     font-size: 20px;
     display: inline-flex;
     vertical-align: middle;
