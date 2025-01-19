@@ -11,6 +11,8 @@
     .threeDot {
         display: block;
     }
+
+
 }
 
 /* Small Devices (Mobile Phones): max-width 600px */
@@ -18,4 +20,11 @@
     .sideBar {
         width: 100%;
     }
+
+    nav li:first-child {
+        font-size: 18px;
+        font-weight: 600;
+        margin-right: auto;
+    }
+
 }
